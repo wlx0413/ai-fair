@@ -1,0 +1,365 @@
+song,artist,genre,mood,tempo,energy
+Love Story,Taylor Swift,Country,Romantic,Medium,Medium
+You Belong With Me,Taylor Swift,Country,Happy,Medium,Medium
+Shake It Off,Taylor Swift,Pop,Happy,Fast,High
+Wildest Dreams,Taylor Swift,Pop,Romantic,Medium,Medium
+Enchanted,Taylor Swift,Pop,Romantic,Slow,Medium
+All Too Well,Taylor Swift,Pop,Emotional,Slow,Medium
+August,Taylor Swift,Alternative,Emotional,Medium,Medium
+Fortnight,Taylor Swift,Pop,Dark,Medium,Medium
+The Hills,The Weeknd,R&B,Dark,Medium,High
+Call Out My Name,The Weeknd,R&B,Sad,Slow,Medium
+I Feel It Coming,The Weeknd,R&B,Chill,Medium,Medium
+Earned It,The Weeknd,R&B,Romantic,Slow,Medium
+Less Than Zero,The Weeknd,Pop,Emotional,Medium,Medium
+Love Me Like You Do,Ellie Goulding,Pop,Romantic,Medium,High
+Burn,Ellie Goulding,Electronic,Energetic,Fast,High
+Lights,Ellie Goulding,Electronic,Chill,Medium,Medium
+Chandelier,Sia,Pop,Emotional,Fast,High
+Cheap Thrills,Sia,Pop,Happy,Fast,High
+Unstoppable,Sia,Pop,Energetic,Medium,High
+Elastic Heart,Sia,Pop,Emotional,Medium,High
+Halo,Beyonce,R&B,Romantic,Medium,High
+Love On Top,Beyonce,R&B,Happy,Fast,High
+Crazy In Love,Beyonce,R&B,Energetic,Fast,High
+If I Were A Boy,Beyonce,R&B,Sad,Slow,Medium
+Single Ladies,Beyonce,Pop,Happy,Fast,High
+Umbrella,Rihanna,R&B,Chill,Medium,Medium
+Diamonds,Rihanna,Pop,Emotional,Medium,Medium
+We Found Love,Rihanna,Electronic,Energetic,Fast,High
+Stay,Rihanna,R&B,Sad,Slow,Low
+Only Girl,Rihanna,Electronic,Energetic,Fast,High
+Firework,Katy Perry,Pop,Energetic,Medium,High
+Roar,Katy Perry,Pop,Energetic,Medium,High
+Dark Horse,Katy Perry,Pop,Dark,Medium,High
+Teenage Dream,Katy Perry,Pop,Happy,Fast,High
+The One That Got Away,Katy Perry,Pop,Sad,Medium,Medium
+Bad Romance,Lady Gaga,Pop,Dark,Fast,High
+Poker Face,Lady Gaga,Pop,Dark,Fast,High
+Shallow,Lady Gaga and Bradley Cooper,Pop,Emotional,Slow,Medium
+Always Remember Us This Way,Lady Gaga,Pop,Romantic,Slow,Medium
+Rain On Me,Lady Gaga and Ariana Grande,Pop,Energetic,Fast,High
+Thank U Next,Ariana Grande,Pop,Chill,Medium,Medium
+7 Rings,Ariana Grande,Pop,Dark,Medium,High
+Into You,Ariana Grande,Pop,Energetic,Fast,High
+One Last Time,Ariana Grande,Pop,Emotional,Medium,High
+Positions,Ariana Grande,R&B,Romantic,Medium,Medium
+Attention,Charlie Puth,Pop,Dark,Medium,Medium
+We Don't Talk Anymore,Charlie Puth,Pop,Emotional,Medium,Medium
+See You Again,Wiz Khalifa and Charlie Puth,Hip-Hop,Emotional,Slow,Medium
+One Call Away,Charlie Puth,Pop,Romantic,Medium,Medium
+How Long,Charlie Puth,Pop,Chill,Medium,Medium
+Treat People With Kindness,Harry Styles,Pop,Happy,Fast,High
+Adore You,Harry Styles,Pop,Romantic,Medium,Medium
+Sign of the Times,Harry Styles,Rock,Emotional,Slow,Medium
+Golden,Harry Styles,Pop,Happy,Fast,High
+Satellite,Harry Styles,Pop,Chill,Medium,Medium
+Lush Life,Zara Larsson,Pop,Happy,Fast,High
+Symphony,Clean Bandit and Zara Larsson,Electronic,Emotional,Fast,High
+Rather Be,Clean Bandit,Electronic,Happy,Fast,High
+Rockabye,Clean Bandit,Electronic,Emotional,Fast,High
+Solo,Clean Bandit and Demi Lovato,Electronic,Energetic,Fast,High
+Heart Attack,Demi Lovato,Pop,Energetic,Fast,High
+Skyscraper,Demi Lovato,Pop,Emotional,Slow,Medium
+Sorry Not Sorry,Demi Lovato,Pop,Energetic,Fast,High
+Cool for the Summer,Demi Lovato,Pop,Energetic,Fast,High
+Let It Go,Demi Lovato,Pop,Emotional,Medium,High
+What Makes You Beautiful,One Direction,Pop,Happy,Fast,High
+Story of My Life,One Direction,Pop,Emotional,Medium,Medium
+Night Changes,One Direction,Pop,Romantic,Slow,Medium
+Drag Me Down,One Direction,Pop,Energetic,Fast,High
+Perfect,One Direction,Pop,Romantic,Medium,Medium
+Pillowtalk,Zayn,R&B,Romantic,Medium,High
+Dusk Till Dawn,Zayn and Sia,Pop,Emotional,Medium,High
+Let Me,Zayn,R&B,Romantic,Medium,Medium
+Slow Hands,Niall Horan,Pop,Romantic,Medium,Medium
+This Town,Niall Horan,Folk,Romantic,Slow,Low
+Memories,Conan Gray,Pop,Sad,Slow,Medium
+Heather,Conan Gray,Pop,Sad,Slow,Low
+Maniac,Conan Gray,Pop,Energetic,Fast,High
+People Watching,Conan Gray,Pop,Emotional,Medium,Medium
+Waves,Dean Lewis,Pop,Sad,Slow,Low
+Be Alright,Dean Lewis,Pop,Sad,Slow,Low
+How Do I Say Goodbye,Dean Lewis,Pop,Emotional,Slow,Low
+Before You Go,Lewis Capaldi,Pop,Sad,Slow,Medium
+Someone You Loved,Lewis Capaldi,Pop,Sad,Slow,Low
+Wish You The Best,Lewis Capaldi,Pop,Sad,Slow,Low
+Moral of the Story,Ashe,Pop,Sad,Slow,Low
+Till Forever Falls Apart,Ashe and Finneas,Alternative,Emotional,Slow,Medium
+Break My Heart Again,Finneas,Alternative,Sad,Slow,Low
+Let's Fall in Love for the Night,Finneas,Alternative,Romantic,Medium,Medium
+Golden Hour,Jvke,Pop,Romantic,Medium,Medium
+This Is What Falling In Love Feels Like,Jvke,Pop,Happy,Fast,High
+Beautiful Things,Benson Boone,Pop,Emotional,Medium,High
+In The Stars,Benson Boone,Pop,Sad,Slow,Medium
+Ghost Town,Benson Boone,Pop,Sad,Slow,Medium
+Without Me,Halsey,Pop,Dark,Medium,Medium
+Eastside,Benny Blanco Halsey and Khalid,Pop,Chill,Medium,Medium
+Colors,Halsey,Alternative,Emotional,Medium,Medium
+Sweet But Psycho,Ava Max,Pop,Dark,Fast,High
+Kings and Queens,Ava Max,Pop,Energetic,Fast,High
+The Motto,Tiesto and Ava Max,Electronic,Energetic,Fast,High
+Wake Me Up,Avicii,Electronic,Energetic,Fast,High
+The Nights,Avicii,Electronic,Energetic,Fast,High
+Waiting For Love,Avicii,Electronic,Happy,Fast,High
+Without You,Avicii,Electronic,Emotional,Fast,High
+Levels,Avicii,Electronic,Energetic,Fast,High
+Faded,Alan Walker,Electronic,Emotional,Medium,High
+Alone,Alan Walker,Electronic,Chill,Medium,Medium
+The Spectre,Alan Walker,Electronic,Energetic,Fast,High
+Darkside,Alan Walker,Electronic,Dark,Medium,High
+On My Way,Alan Walker Sabrina Carpenter and Farruko,Electronic,Energetic,Fast,High
+Titanium,David Guetta and Sia,Electronic,Energetic,Fast,High
+Without You,David Guetta and Usher,Electronic,Energetic,Fast,High
+I'm Good,David Guetta and Bebe Rexha,Electronic,Energetic,Fast,High
+Hey Mama,David Guetta,Electronic,Energetic,Fast,High
+Clarity,Zedd and Foxes,Electronic,Emotional,Fast,High
+Stay,Zedd and Alessia Cara,Electronic,Chill,Medium,Medium
+The Middle,Zedd Maren Morris and Grey,Electronic,Happy,Fast,High
+Beautiful Now,Zedd,Electronic,Energetic,Fast,High
+Falling,Harry Styles,Pop,Sad,Slow,Low
+Arcade,Duncan Laurence,Pop,Sad,Slow,Medium
+Lovely Day,Bill Withers,Soul,Happy,Medium,Medium
+Ain't No Sunshine,Bill Withers,Soul,Sad,Slow,Low
+Just The Two Of Us,Grover Washington Jr and Bill Withers,Soul,Romantic,Medium,Medium
+September,Earth Wind and Fire,Funk,Happy,Fast,High
+Boogie Wonderland,Earth Wind and Fire,Funk,Happy,Fast,High
+Superstition,Stevie Wonder,Soul,Energetic,Medium,High
+Isn't She Lovely,Stevie Wonder,Soul,Happy,Medium,Medium
+I Just Called To Say I Love You,Stevie Wonder,Soul,Romantic,Slow,Low
+Uptown Girl,Billy Joel,Pop,Happy,Fast,High
+Piano Man,Billy Joel,Folk,Emotional,Medium,Medium
+Vienna,Billy Joel,Folk,Emotional,Slow,Low
+Hotel California,Eagles,Rock,Chill,Medium,Medium
+Take It Easy,Eagles,Rock,Happy,Medium,Medium
+Dreams,Fleetwood Mac,Rock,Chill,Medium,Medium
+Go Your Own Way,Fleetwood Mac,Rock,Energetic,Fast,High
+Every Breath You Take,The Police,Rock,Dark,Medium,Medium
+Roxanne,The Police,Rock,Energetic,Fast,High
+Smells Like Teen Spirit,Nirvana,Rock,Dark,Fast,High
+Come As You Are,Nirvana,Rock,Dark,Medium,Medium
+Sweet Child O' Mine,Guns N' Roses,Rock,Energetic,Fast,High
+November Rain,Guns N' Roses,Rock,Emotional,Slow,Medium
+Wonderwall,Oasis,Rock,Emotional,Medium,Medium
+Don't Look Back In Anger,Oasis,Rock,Emotional,Medium,High
+Wonderwall,Oasis Remastered,Rock,Emotional,Medium,Medium
+Creep,Radiohead,Alternative,Dark,Slow,Medium
+No Surprises,Radiohead,Alternative,Sad,Slow,Low
+High and Dry,Radiohead,Alternative,Emotional,Medium,Medium
+Mr Brightside,The Killers,Rock,Energetic,Fast,High
+Somebody Told Me,The Killers,Rock,Energetic,Fast,High
+Human,The Killers,Rock,Emotional,Medium,Medium
+Take Me Out,Franz Ferdinand,Rock,Energetic,Fast,High
+Last Nite,The Strokes,Rock,Energetic,Fast,High
+Someday,The Strokes,Rock,Chill,Medium,Medium
+Do I Wanna Know,Arctic Monkeys,Rock,Dark,Medium,High
+505,Arctic Monkeys,Rock,Emotional,Medium,Medium
+I Wanna Be Yours,Arctic Monkeys,Rock,Romantic,Slow,Low
+R U Mine,Arctic Monkeys,Rock,Energetic,Fast,High
+Electric Love,Borns,Alternative,Romantic,Fast,High
+Sweater Weather,The Neighbourhood,Alternative,Dark,Medium,Medium
+Daddy Issues,The Neighbourhood,Alternative,Sad,Medium,Medium
+Softcore,The Neighbourhood,Alternative,Dark,Medium,Medium
+Pumped Up Kicks,Foster The People,Alternative,Dark,Medium,Medium
+Sit Next to Me,Foster The People,Alternative,Chill,Medium,Medium
+Take A Walk,Passion Pit,Alternative,Happy,Fast,High
+Safe and Sound,Capital Cities,Alternative,Happy,Fast,High
+Tongue Tied,Grouplove,Alternative,Happy,Fast,High
+Young Folks,Peter Bjorn and John,Alternative,Chill,Medium,Medium
+Electric Feel,MGMT,Alternative,Chill,Medium,Medium
+Kids,MGMT,Alternative,Happy,Fast,High
+Time to Pretend,MGMT,Alternative,Dark,Medium,Medium
+The Less I Know The Better,Tame Impala,Alternative,Chill,Medium,Medium
+Let It Happen,Tame Impala,Alternative,Chill,Medium,High
+Borderline,Tame Impala,Alternative,Chill,Medium,Medium
+New Person Same Old Mistakes,Tame Impala,Alternative,Dark,Medium,Medium
+Location,Khalid,R&B,Chill,Medium,Medium
+Young Dumb and Broke,Khalid,R&B,Chill,Medium,Medium
+Talk,Khalid,R&B,Romantic,Medium,Medium
+Better,Khalid,R&B,Chill,Medium,Medium
+Snooze,SZA,R&B,Romantic,Medium,Medium
+Kill Bill,SZA,R&B,Dark,Medium,Medium
+Good Days,SZA,R&B,Chill,Medium,Medium
+Saturn,SZA,R&B,Chill,Medium,Medium
+Thinkin Bout You,Frank Ocean,R&B,Emotional,Slow,Low
+Pink White,Frank Ocean,R&B,Chill,Medium,Medium
+Lost,Frank Ocean,R&B,Chill,Medium,Medium
+Nights,Frank Ocean,R&B,Dark,Medium,Medium
+Redbone,Childish Gambino,R&B,Chill,Medium,Medium
+This Is America,Childish Gambino,Hip-Hop,Dark,Medium,High
+3005,Childish Gambino,Hip-Hop,Chill,Medium,Medium
+HUMBLE,Kendrick Lamar,Hip-Hop,Energetic,Fast,High
+DNA,Kendrick Lamar,Hip-Hop,Energetic,Fast,High
+LOVE,Kendrick Lamar,Hip-Hop,Romantic,Medium,Medium
+Alright,Kendrick Lamar,Hip-Hop,Energetic,Fast,High
+Lucid Dreams,Juice WRLD,Hip-Hop,Sad,Medium,Medium
+Robbery,Juice WRLD,Hip-Hop,Sad,Medium,Medium
+All Girls Are The Same,Juice WRLD,Hip-Hop,Sad,Medium,Medium
+XO Tour Llif3,Lil Uzi Vert,Hip-Hop,Dark,Fast,High
+Just Wanna Rock,Lil Uzi Vert,Hip-Hop,Energetic,Fast,High
+Industry Baby,Lil Nas X and Jack Harlow,Hip-Hop,Energetic,Fast,High
+Old Town Road,Lil Nas X,Country,Happy,Fast,High
+Montero,Lil Nas X,Pop,Dark,Fast,High
+First Class,Jack Harlow,Hip-Hop,Chill,Medium,Medium
+Whats Poppin,Jack Harlow,Hip-Hop,Energetic,Fast,High
+Mood,24kGoldn and Iann Dior,Hip-Hop,Happy,Fast,High
+Without You,The Kid LAROI,Pop,Sad,Medium,Medium
+Thousand Miles,The Kid LAROI,Pop,Emotional,Medium,Medium
+Love Again,The Kid LAROI,Pop,Sad,Medium,Medium
+Sweet Creature,Harry Styles,Folk,Romantic,Slow,Low
+Ophelia,The Lumineers,Folk,Happy,Medium,Medium
+Ho Hey,The Lumineers,Folk,Happy,Medium,Medium
+Stubborn Love,The Lumineers,Folk,Emotional,Medium,Medium
+Budapest,George Ezra,Folk,Happy,Medium,Medium
+Shotgun,George Ezra,Folk,Happy,Fast,High
+Home,Edward Sharpe and the Magnetic Zeros,Folk,Happy,Medium,Medium
+Skinny Love,Bon Iver,Folk,Sad,Slow,Low
+Holocene,Bon Iver,Folk,Emotional,Slow,Low
+Roslyn,Bon Iver and St Vincent,Folk,Sad,Slow,Low
+Old Pine,Ben Howard,Folk,Chill,Medium,Low
+Only Love,Ben Howard,Folk,Romantic,Slow,Low
+Cherry Wine,Hozier,Folk,Romantic,Slow,Low
+Work Song,Hozier,Soul,Romantic,Slow,Medium
+Someone New,Hozier,Soul,Happy,Medium,Medium
+Nina Cried Power,Hozier,Soul,Energetic,Medium,High
+不能说的秘密,周杰伦,Mandopop,Romantic,Slow,Low
+一路向北,周杰伦,Mandopop,Sad,Medium,Medium
+安静,周杰伦,Mandopop,Sad,Slow,Low
+简单爱,周杰伦,Mandopop,Happy,Medium,Medium
+搁浅,周杰伦,Mandopop,Sad,Slow,Medium
+最长的电影,周杰伦,Mandopop,Sad,Slow,Low
+轨迹,周杰伦,Mandopop,Emotional,Slow,Medium
+花海,周杰伦,Mandopop,Romantic,Medium,Medium
+半岛铁盒,周杰伦,Mandopop,Emotional,Medium,Medium
+蒲公英的约定,周杰伦,Mandopop,Romantic,Medium,Medium
+等你下课,周杰伦,Mandopop,Romantic,Medium,Medium
+说好不哭,周杰伦,Mandopop,Sad,Slow,Medium
+Mojito,周杰伦,Mandopop,Happy,Medium,Medium
+本草纲目,周杰伦,Mandopop,Energetic,Fast,High
+龙卷风,周杰伦,Mandopop,Emotional,Medium,Medium
+可惜没如果,林俊杰,Mandopop,Sad,Slow,Medium
+江南,林俊杰,Mandopop,Romantic,Medium,Medium
+修炼爱情,林俊杰,Mandopop,Sad,Slow,Medium
+她说,林俊杰,Mandopop,Sad,Slow,Medium
+不为谁而作的歌,林俊杰,Mandopop,Emotional,Medium,High
+交换余生,林俊杰,Mandopop,Romantic,Medium,Medium
+那些你很冒险的梦,林俊杰,Mandopop,Emotional,Medium,Medium
+背对背拥抱,林俊杰,Mandopop,Sad,Slow,Medium
+关键词,林俊杰,Mandopop,Romantic,Medium,Medium
+一千年以后,林俊杰,Mandopop,Romantic,Slow,Medium
+突然好想你,五月天,Rock,Sad,Slow,Medium
+倔强,五月天,Rock,Energetic,Fast,High
+知足,五月天,Rock,Emotional,Slow,Medium
+温柔,五月天,Rock,Romantic,Medium,Medium
+恋爱ing,五月天,Rock,Happy,Fast,High
+派对动物,五月天,Rock,Happy,Fast,High
+后来的我们,五月天,Rock,Sad,Slow,Medium
+你不是真正的快乐,五月天,Rock,Sad,Medium,Medium
+干杯,五月天,Rock,Emotional,Medium,High
+盛夏光年,五月天,Rock,Energetic,Fast,High
+欧若拉,张韶涵,Mandopop,Energetic,Fast,High
+隐形的翅膀,张韶涵,Mandopop,Emotional,Medium,High
+亲爱的那不是爱情,张韶涵,Mandopop,Sad,Slow,Medium
+遗失的美好,张韶涵,Mandopop,Emotional,Medium,Medium
+淋雨一直走,张韶涵,Mandopop,Energetic,Fast,High
+手心的太阳,张韶涵,Mandopop,Romantic,Medium,Medium
+寓言,张韶涵,Mandopop,Energetic,Fast,High
+倒带,蔡依林,Mandopop,Sad,Medium,Medium
+日不落,蔡依林,Mandopop,Happy,Fast,High
+说爱你,蔡依林,Mandopop,Happy,Fast,High
+舞娘,蔡依林,Mandopop,Energetic,Fast,High
+大艺术家,蔡依林,Mandopop,Energetic,Fast,High
+玫瑰少年,蔡依林,Mandopop,Emotional,Medium,High
+怪美的,蔡依林,Mandopop,Energetic,Fast,High
+天空,蔡依林,Mandopop,Emotional,Slow,Medium
+匆匆那年,王菲,Mandopop,Sad,Slow,Low
+红豆,王菲,Mandopop,Romantic,Slow,Low
+容易受伤的女人,王菲,Mandopop,Sad,Slow,Low
+传奇,王菲,Mandopop,Romantic,Slow,Low
+我愿意,王菲,Mandopop,Romantic,Slow,Low
+催眠,王菲,Mandopop,Chill,Medium,Low
+百年孤寂,王菲,Mandopop,Dark,Medium,Medium
+因为爱情,陈奕迅和王菲,Mandopop,Romantic,Slow,Low
+富士山下,陈奕迅,Cantopop,Sad,Slow,Low
+十年,陈奕迅,Mandopop,Sad,Slow,Medium
+孤勇者,陈奕迅,Mandopop,Energetic,Medium,High
+爱情转移,陈奕迅,Mandopop,Sad,Medium,Medium
+好久不见,陈奕迅,Mandopop,Sad,Slow,Low
+K歌之王,陈奕迅,Cantopop,Emotional,Medium,Medium
+浮夸,陈奕迅,Cantopop,Dark,Medium,High
+淘汰,陈奕迅,Mandopop,Sad,Slow,Medium
+不如见一面,陈奕迅,Mandopop,Emotional,Medium,Medium
+喜帖街,谢安琪,Cantopop,Sad,Slow,Medium
+钟无艳,谢安琪,Cantopop,Sad,Medium,Medium
+年度之歌,谢安琪,Cantopop,Emotional,Medium,Medium
+少女的祈祷,杨千嬅,Cantopop,Romantic,Medium,Medium
+再见二丁目,杨千嬅,Cantopop,Sad,Slow,Low
+可惜我是水瓶座,杨千嬅,Cantopop,Sad,Medium,Medium
+小城大事,杨千嬅,Cantopop,Emotional,Medium,Medium
+勇,杨千嬅,Cantopop,Energetic,Medium,High
+海阔天空,Beyond,Cantopop,Emotional,Medium,High
+光辉岁月,Beyond,Cantopop,Energetic,Medium,High
+真的爱你,Beyond,Cantopop,Romantic,Medium,Medium
+不再犹豫,Beyond,Cantopop,Energetic,Fast,High
+Amani,Beyond,Cantopop,Emotional,Medium,High
+大地,Beyond,Cantopop,Emotional,Medium,High
+冷雨夜,Beyond,Cantopop,Sad,Medium,Medium
+灰色轨迹,Beyond,Cantopop,Sad,Medium,Medium
+泡沫,G.E.M.,Mandopop,Emotional,Slow,High
+光年之外,G.E.M.,Mandopop,Energetic,Medium,High
+来自天堂的魔鬼,G.E.M.,Mandopop,Dark,Fast,High
+再见,G.E.M.,Mandopop,Sad,Medium,Medium
+我的秘密,G.E.M.,Mandopop,Romantic,Medium,Medium
+新的心跳,G.E.M.,Mandopop,Energetic,Fast,High
+很久以后,G.E.M.,Mandopop,Sad,Slow,Medium
+天空没有极限,G.E.M.,Mandopop,Energetic,Medium,High
+倒数,G.E.M.,Mandopop,Energetic,Fast,High
+句号,G.E.M.,Mandopop,Sad,Slow,Medium
+像鱼,王贰浪,Mandopop,Sad,Slow,Low
+往后余生,马良,Mandopop,Romantic,Slow,Low
+绿色,陈雪凝,Mandopop,Sad,Slow,Medium
+你的酒馆对我打了烊,陈雪凝,Mandopop,Sad,Medium,Medium
+世界这么大还是遇见你,程响,Mandopop,Romantic,Medium,Medium
+可能,程响,Mandopop,Emotional,Medium,Medium
+四季予你,程响,Mandopop,Romantic,Medium,Medium
+一路生花,温奕心,Mandopop,Happy,Medium,Medium
+星辰大海,黄霄雲,Mandopop,Energetic,Medium,High
+少年,梦然,Mandopop,Energetic,Fast,High
+飞鸟和蝉,任然,Mandopop,Sad,Medium,Medium
+无人之岛,任然,Mandopop,Sad,Slow,Low
+疑心病,任然,Mandopop,Dark,Medium,Medium
+空空如也,任然,Mandopop,Sad,Medium,Medium
+关键词,林俊杰,Mandopop,Romantic,Medium,Medium
+讲真的,曾惜,Mandopop,Sad,Medium,Medium
+去年夏天,王大毛,Mandopop,Chill,Medium,Medium
+有可能的夜晚,曾轶可,Folk,Romantic,Slow,Low
+狮子座,曾轶可,Folk,Happy,Medium,Medium
+最天使,曾轶可,Folk,Emotional,Medium,Medium
+董小姐,宋冬野,Folk,Romantic,Medium,Medium
+斑马斑马,宋冬野,Folk,Sad,Slow,Low
+安和桥,宋冬野,Folk,Sad,Slow,Low
+成都,赵雷,Folk,Chill,Medium,Low
+南方姑娘,赵雷,Folk,Romantic,Medium,Low
+理想,赵雷,Folk,Emotional,Medium,Medium
+鼓楼,赵雷,Folk,Chill,Medium,Low
+少年锦时,赵雷,Folk,Emotional,Medium,Medium
+奇妙能力歌,陈粒,Folk,Chill,Medium,Low
+小半,陈粒,Folk,Sad,Slow,Low
+易燃易爆炸,陈粒,Folk,Dark,Medium,Medium
+走马,陈粒,Folk,Emotional,Medium,Medium
+光,陈粒,Folk,Emotional,Slow,Low
+房间,刘瑞琦,Folk,Chill,Medium,Low
+夏天的风,温岚,Mandopop,Happy,Medium,Medium
+不得不爱,潘玮柏和弦子,Mandopop,Romantic,Fast,High
+快乐崇拜,潘玮柏和张韶涵,Mandopop,Happy,Fast,High
+反转地球,潘玮柏,Hip-Hop,Energetic,Fast,High
+壁虎漫步,潘玮柏,Hip-Hop,Happy,Fast,High
+我的麦克风,潘玮柏,Hip-Hop,Energetic,Fast,High
+飘向北方,黄明志和王力宏,Hip-Hop,Emotional,Medium,Medium
+唯一,王力宏,Mandopop,Romantic,Slow,Low
+大城小爱,王力宏,Mandopop,Happy,Medium,Medium
+心跳,王力宏,Mandopop,Romantic,Slow,Medium
+需要人陪,王力宏,Mandopop,Sad,Medium,Medium
+改变自己,王力宏,Mandopop,Energetic,Fast,High
+依然爱你,王力宏,Mandopop,Romantic,Medium,Medium
+我们的歌,王力宏,Mandopop,Happy,Medium,Medium

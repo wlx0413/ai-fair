@@ -1,0 +1,15 @@
+Flask
+pandas
+numpy
+scikit-learn
+joblib
+requests
+python-dotenv
+lightfm
+scipy
+pywebview
+Pillow
+pyinstaller
+
+# Optional metadata helper only. The app must still work without it.
+# qqmusic-api-python

@@ -1,0 +1,285 @@
+track_id,track_name,artist_name,album_name,genre,tags,danceability,energy,valence,tempo,acousticness,instrumentalness,speechiness,liveness,popularity,source,external_url,has_audio_features
+demo_shape-of-you_9189d5e911,Shape of You,Ed Sheeran,Curated Real Song Library,Pop,"dance,romantic",0.83,0.65,0.93,96.0,0.58,0.0,0.08,0.09,88.0,curated,,True
+demo_blinding-lights_d6df572008,Blinding Lights,The Weeknd,Curated Real Song Library,Pop,"synth,dance",0.51,0.73,0.33,171.0,0.0,0.0,0.06,0.09,92.0,curated,,True
+demo_levitating_48943c454f,Levitating,Dua Lipa,Curated Real Song Library,Pop,"dance,happy",0.7,0.82,0.91,103.0,0.01,0.0,0.06,0.07,87.0,curated,,True
+demo_uptown-funk_a86b14efe2,Uptown Funk,Mark Ronson ft. Bruno Mars,Curated Real Song Library,Pop,"funk,dance",0.86,0.61,0.93,115.0,0.01,0.0,0.08,0.03,86.0,curated,,True
+demo_can-t-stop-the-feeling_c72b70580b,Can't Stop the Feeling,Justin Timberlake,Curated Real Song Library,Pop,"happy,dance",0.67,0.83,0.7,113.0,0.01,0.0,0.07,0.19,84.0,curated,,True
+demo_someone-like-you_1c40f79c4e,Someone Like You,Adele,Curated Real Song Library,Ballad,"sad,piano",0.56,0.33,0.28,135.0,0.89,0.0,0.03,0.1,86.0,curated,,True
+demo_all-of-me_885896f3d8,All of Me,John Legend,Curated Real Song Library,Ballad,"romantic,piano",0.42,0.26,0.33,120.0,0.92,0.0,0.03,0.13,85.0,curated,,True
+demo_fix-you_1b90369f24,Fix You,Coldplay,Curated Real Song Library,Ballad,"emotional,anthem",0.21,0.42,0.12,138.0,0.16,0.0,0.03,0.11,82.0,curated,,True
+demo_let-her-go_024ef9816b,Let Her Go,Passenger,Curated Real Song Library,Acoustic,"sad,folk",0.51,0.54,0.24,75.0,0.66,0.0,0.04,0.1,81.0,curated,,True
+demo_say-something_93505775d9,Say Something,A Great Big World,Curated Real Song Library,Ballad,"sad,piano",0.45,0.15,0.09,138.0,0.87,0.0,0.03,0.09,78.0,curated,,True
+demo_believer_acf555b937,Believer,Imagine Dragons,Curated Real Song Library,Rock,"anthem,energy",0.78,0.78,0.67,125.0,0.06,0.0,0.13,0.08,85.0,curated,,True
+demo_numb_3691a89fca,Numb,Linkin Park,Curated Real Song Library,Rock,"intense,anthem",0.5,0.86,0.24,110.0,0.0,0.0,0.04,0.64,84.0,curated,,True
+demo_mr-brightside_50b72ce2d4,Mr. Brightside,The Killers,Curated Real Song Library,Rock,"indie,energy",0.36,0.91,0.23,148.0,0.0,0.0,0.07,0.1,83.0,curated,,True
+demo_seven-nation-army_71b55dc704,Seven Nation Army,The White Stripes,Curated Real Song Library,Rock,"garage,anthem",0.74,0.46,0.32,124.0,0.01,0.11,0.08,0.27,82.0,curated,,True
+demo_smells-like-teen-spirit_c280b959e6,Smells Like Teen Spirit,Nirvana,Curated Real Song Library,Rock,"grunge,intense",0.5,0.91,0.53,117.0,0.0,0.0,0.06,0.11,86.0,curated,,True
+demo_titanium_da2319bf23,Titanium,David Guetta ft. Sia,Curated Real Song Library,Electronic,"dance,anthem",0.6,0.79,0.3,126.0,0.07,0.0,0.1,0.13,82.0,curated,,True
+demo_wake-me-up_ffe3fce486,Wake Me Up,Avicii,Curated Real Song Library,Electronic,"dance,country",0.53,0.78,0.64,124.0,0.0,0.0,0.05,0.16,84.0,curated,,True
+demo_animals_68dada20b4,Animals,Martin Garrix,Curated Real Song Library,Electronic,"festival,edm",0.59,0.9,0.04,128.0,0.0,0.74,0.04,0.07,78.0,curated,,True
+demo_one-more-time_264093a915,One More Time,Daft Punk,Curated Real Song Library,Electronic,"dance,classic",0.61,0.7,0.48,123.0,0.02,0.16,0.13,0.33,80.0,curated,,True
+demo_strobe_c19fbd7ef3,Strobe,Deadmau5,Curated Real Song Library,Electronic,"progressive,instrumental",0.49,0.77,0.08,128.0,0.0,0.82,0.04,0.08,74.0,curated,,True
+demo_god-s-plan_44b7969c95,God's Plan,Drake,Curated Real Song Library,Hip-hop,"rap,confident",0.75,0.45,0.36,77.0,0.03,0.0,0.1,0.55,86.0,curated,,True
+demo_sicko-mode_e69b97d160,SICKO MODE,Travis Scott,Curated Real Song Library,Hip-hop,"rap,dark",0.83,0.73,0.45,155.0,0.01,0.0,0.22,0.12,85.0,curated,,True
+demo_lose-yourself_7a4d5f0097,Lose Yourself,Eminem,Curated Real Song Library,Hip-hop,"rap,intense",0.69,0.74,0.06,171.0,0.01,0.0,0.26,0.36,89.0,curated,,True
+demo_humble_2f05851685,HUMBLE.,Kendrick Lamar,Curated Real Song Library,Hip-hop,"rap,confident",0.91,0.62,0.42,150.0,0.0,0.0,0.1,0.1,86.0,curated,,True
+demo_stronger_7de0988382,Stronger,Kanye West,Curated Real Song Library,Hip-hop,"rap,electronic",0.62,0.72,0.49,104.0,0.01,0.0,0.15,0.41,84.0,curated,,True
+demo_anti-hero_5e911a9995,Anti-Hero,Taylor Swift,Curated Real Song Library,Pop,"dance,happy",0.67,0.75,0.67,103.0,0.17,0.01,0.07,0.12,72.0,curated,,True
+demo_bad-guy_1ff4dd5dd2,Bad Guy,Billie Eilish,Curated Real Song Library,Pop,"dance,happy",0.695,0.725,0.695,106.0,0.145,0.01,0.07,0.12,73.0,curated,,True
+demo_watermelon-sugar_fcb5b64b50,Watermelon Sugar,Harry Styles,Curated Real Song Library,Pop,"dance,happy",0.72,0.7,0.72,109.0,0.12,0.01,0.07,0.12,74.0,curated,,True
+demo_as-it-was_e863afa2e9,As It Was,Harry Styles,Curated Real Song Library,Pop,"dance,happy",0.745,0.675,0.745,112.0,0.095,0.01,0.07,0.12,75.0,curated,,True
+demo_roar_d3c7c62b59,Roar,Katy Perry,Curated Real Song Library,Pop,"dance,happy",0.77,0.65,0.77,115.0,0.07,0.01,0.07,0.12,76.0,curated,,True
+demo_firework_e24d8047b9,Firework,Katy Perry,Curated Real Song Library,Pop,"dance,happy",0.67,0.75,0.67,118.0,0.17,0.01,0.07,0.12,77.0,curated,,True
+demo_viva-la-vida_9e00d69508,Viva La Vida,Coldplay,Curated Real Song Library,Rock,"guitar,anthem",0.455,0.865,0.435,141.0,0.065,0.02,0.06,0.18,78.0,curated,,True
+demo_thunder_dfdaebf68a,Thunder,Imagine Dragons,Curated Real Song Library,Rock,"guitar,anthem",0.48,0.84,0.46,123.0,0.04,0.02,0.06,0.18,79.0,curated,,True
+demo_radioactive_7787cf00c8,Radioactive,Imagine Dragons,Curated Real Song Library,Rock,"guitar,anthem",0.505,0.815,0.485,126.0,0.015,0.02,0.06,0.18,80.0,curated,,True
+demo_yellow_7260461504,Yellow,Coldplay,Curated Real Song Library,Rock,"guitar,anthem",0.53,0.79,0.51,129.0,0.0,0.02,0.06,0.18,81.0,curated,,True
+demo_the-pretender_8bee5af378,The Pretender,Foo Fighters,Curated Real Song Library,Rock,"guitar,anthem",0.43,0.89,0.41,132.0,0.09,0.02,0.06,0.18,82.0,curated,,True
+demo_boulevard-of-broken-dreams_6546297a99,Boulevard of Broken Dreams,Green Day,Curated Real Song Library,Rock,"guitar,anthem",0.455,0.865,0.435,135.0,0.065,0.02,0.06,0.18,83.0,curated,,True
+demo_clarity_390c3874cb,Clarity,Zedd,Curated Real Song Library,Electronic,"dance,edm",0.68,0.86,0.45,134.0,0.03,0.35,0.06,0.16,84.0,curated,,True
+demo_levels_e0d9191e14,Levels,Avicii,Curated Real Song Library,Electronic,"dance,edm",0.705,0.835,0.475,137.0,0.005,0.35,0.06,0.16,85.0,curated,,True
+demo_scary-monsters-and-nice-spri_95c5df9d9c,Scary Monsters and Nice Sprites,Skrillex,Curated Real Song Library,Electronic,"dance,edm",0.73,0.81,0.5,119.0,0.0,0.35,0.06,0.16,86.0,curated,,True
+demo_shelter_d63357af07,Shelter,Porter Robinson,Curated Real Song Library,Electronic,"dance,edm",0.63,0.91,0.4,122.0,0.08,0.35,0.06,0.16,87.0,curated,,True
+demo_midnight-city_d07db644eb,Midnight City,M83,Curated Real Song Library,Electronic,"dance,edm",0.655,0.885,0.425,125.0,0.055,0.35,0.06,0.16,88.0,curated,,True
+demo_faded_75dcc7d5b9,Faded,Alan Walker,Curated Real Song Library,Electronic,"dance,edm",0.68,0.86,0.45,128.0,0.03,0.35,0.06,0.16,89.0,curated,,True
+demo_sunflower_8c101fbcc9,Sunflower,Post Malone,Curated Real Song Library,Hip-hop,"rap,beat",0.815,0.655,0.505,99.0,0.025,0.0,0.22,0.15,90.0,curated,,True
+demo_the-real-slim-shady_700a96a39b,The Real Slim Shady,Eminem,Curated Real Song Library,Hip-hop,"rap,beat",0.84,0.63,0.53,102.0,0.0,0.0,0.22,0.15,91.0,curated,,True
+demo_dna_a0932b9505,DNA.,Kendrick Lamar,Curated Real Song Library,Hip-hop,"rap,beat",0.74,0.73,0.43,105.0,0.1,0.0,0.22,0.15,72.0,curated,,True
+demo_hotline-bling_7eff095f61,Hotline Bling,Drake,Curated Real Song Library,Hip-hop,"rap,beat",0.765,0.705,0.455,87.0,0.075,0.0,0.22,0.15,73.0,curated,,True
+demo_mask-off_d35f121b04,Mask Off,Future,Curated Real Song Library,Hip-hop,"rap,beat",0.79,0.68,0.48,90.0,0.05,0.0,0.22,0.15,74.0,curated,,True
+demo_old-town-road_bb91bbb5c7,Old Town Road,Lil Nas X,Curated Real Song Library,Hip-hop,"rap,beat",0.815,0.655,0.505,93.0,0.025,0.0,0.22,0.15,75.0,curated,,True
+demo_hello_2c7f61cefa,Hello,Adele,Curated Real Song Library,Ballad,"piano,emotional",0.47,0.26,0.33,82.0,0.73,0.01,0.04,0.1,76.0,curated,,True
+demo_perfect_ee553a496b,Perfect,Ed Sheeran,Curated Real Song Library,Ballad,"piano,emotional",0.37,0.36,0.23,85.0,0.83,0.01,0.04,0.1,77.0,curated,,True
+demo_the-scientist_136942e5cc,The Scientist,Coldplay,Curated Real Song Library,Ballad,"piano,emotional",0.395,0.335,0.255,88.0,0.805,0.01,0.04,0.1,78.0,curated,,True
+demo_stay-with-me_d20f3ca442,Stay With Me,Sam Smith,Curated Real Song Library,Ballad,"piano,emotional",0.42,0.31,0.28,91.0,0.78,0.01,0.04,0.1,79.0,curated,,True
+demo_when-i-was-your-man_3b03152835,When I Was Your Man,Bruno Mars,Curated Real Song Library,Ballad,"piano,emotional",0.445,0.285,0.305,73.0,0.755,0.01,0.04,0.1,80.0,curated,,True
+demo_jar-of-hearts_76b06b34be,Jar of Hearts,Christina Perri,Curated Real Song Library,Ballad,"piano,emotional",0.47,0.26,0.33,76.0,0.73,0.01,0.04,0.1,81.0,curated,,True
+demo_riptide_c6632d54e3,Riptide,Vance Joy,Curated Real Song Library,Indie,"indie,melodic",0.53,0.61,0.5,105.0,0.39,0.04,0.05,0.13,82.0,curated,,True
+demo_ho-hey_a8165b7fb5,Ho Hey,The Lumineers,Curated Real Song Library,Indie,"indie,melodic",0.555,0.585,0.525,108.0,0.365,0.04,0.05,0.13,83.0,curated,,True
+demo_take-me-to-church_928a316efb,Take Me to Church,Hozier,Curated Real Song Library,Indie,"indie,melodic",0.58,0.56,0.55,111.0,0.34,0.04,0.05,0.13,84.0,curated,,True
+demo_dog-days-are-over_334c118bee,Dog Days Are Over,Florence + The Machine,Curated Real Song Library,Indie,"indie,melodic",0.605,0.535,0.575,114.0,0.315,0.04,0.05,0.13,85.0,curated,,True
+demo_pumped-up-kicks_dc853f4c6f,Pumped Up Kicks,Foster the People,Curated Real Song Library,Indie,"indie,melodic",0.63,0.51,0.6,117.0,0.29,0.04,0.05,0.13,86.0,curated,,True
+demo_sweater-weather_005d336614,Sweater Weather,The Neighbourhood,Curated Real Song Library,Indie,"indie,melodic",0.53,0.61,0.5,99.0,0.39,0.04,0.05,0.13,87.0,curated,,True
+demo_no-one_857c46ff50,No One,Alicia Keys,Curated Real Song Library,R&B,"soul,smooth",0.625,0.525,0.495,88.0,0.305,0.0,0.09,0.12,88.0,curated,,True
+demo_adorn_94d929399d,Adorn,Miguel,Curated Real Song Library,R&B,"soul,smooth",0.65,0.5,0.52,91.0,0.28,0.0,0.09,0.12,89.0,curated,,True
+demo_thinking-bout-you_7545b09fad,Thinking Bout You,Frank Ocean,Curated Real Song Library,R&B,"soul,smooth",0.675,0.475,0.545,94.0,0.255,0.0,0.09,0.12,90.0,curated,,True
+demo_earned-it_c7f89bfe5b,Earned It,The Weeknd,Curated Real Song Library,R&B,"soul,smooth",0.7,0.45,0.57,97.0,0.23,0.0,0.09,0.12,91.0,curated,,True
+demo_love-on-the-brain_1723fa602a,Love on the Brain,Rihanna,Curated Real Song Library,R&B,"soul,smooth",0.6,0.55,0.47,100.0,0.33,0.0,0.09,0.12,72.0,curated,,True
+demo_if-i-ain-t-got-you_8f28dddfc4,If I Ain't Got You,Alicia Keys,Curated Real Song Library,R&B,"soul,smooth",0.625,0.525,0.495,103.0,0.305,0.0,0.09,0.12,73.0,curated,,True
+demo_banana-pancakes_9873fe1372,Banana Pancakes,Jack Johnson,Curated Real Song Library,Acoustic,"folk,acoustic",0.52,0.36,0.5,79.0,0.82,0.03,0.04,0.11,74.0,curated,,True
+demo_fast-car_12930350e4,Fast Car,Tracy Chapman,Curated Real Song Library,Acoustic,"folk,acoustic",0.545,0.335,0.525,82.0,0.795,0.03,0.04,0.11,75.0,curated,,True
+demo_blackbird_128deddb44,Blackbird,The Beatles,Curated Real Song Library,Acoustic,"folk,acoustic",0.57,0.31,0.55,85.0,0.77,0.03,0.04,0.11,76.0,curated,,True
+demo_skinny-love_9ed3284083,Skinny Love,Bon Iver,Curated Real Song Library,Acoustic,"folk,acoustic",0.47,0.41,0.45,88.0,0.87,0.03,0.04,0.11,77.0,curated,,True
+demo_budapest_62f783db50,Budapest,George Ezra,Curated Real Song Library,Acoustic,"folk,acoustic",0.495,0.385,0.475,91.0,0.845,0.03,0.04,0.11,78.0,curated,,True
+demo_better-together_7f82a38423,Better Together,Jack Johnson,Curated Real Song Library,Acoustic,"folk,acoustic",0.52,0.36,0.5,94.0,0.82,0.03,0.04,0.11,79.0,curated,,True
+manual_counting-stars_fe57e29190,Counting Stars,OneRepublic,,Unknown,,,,,,,,,,,manual,,False
+manual_someone-you-loved_35d467d17c,Someone You Loved,Lewis Capaldi,,Unknown,,,,,,,,,,,manual,,False
+manual_stay_9ce2be2b1b,Stay,The Kid LAROI,,Unknown,,,,,,,,,,,manual,,False
+manual_bad-habits_23636f9e42,Bad Habits,Ed Sheeran,,Unknown,,,,,,,,,,,manual,,False
+manual_senorita_8755d611b2,Senorita,Shawn Mendes,,Unknown,,,,,,,,,,,manual,,False
+manual_attention_97163d1210,Attention,Charlie Puth,,Unknown,,,,,,,,,,,manual,,False
+manual_we-don-t-talk-anymore_c3cd484f79,We Don't Talk Anymore,Charlie Puth,,Unknown,,,,,,,,,,,manual,,False
+manual_happier_6a2377665b,Happier,Marshmello,,Unknown,,,,,,,,,,,manual,,False
+manual_alone_0bd73f5947,Alone,Alan Walker,,Unknown,,,,,,,,,,,manual,,False
+manual_closer_de5bdecb7f,Closer,The Chainsmokers,,Unknown,,,,,,,,,,,manual,,False
+manual_something-just-like-this_fac7024a2e,Something Just Like This,The Chainsmokers,,Unknown,,,,,,,,,,,manual,,False
+manual_see-you-again_b8a85c67ed,See You Again,Wiz Khalifa,,Unknown,,,,,,,,,,,manual,,False
+manual_love-story_840b84f86a,Love Story,Taylor Swift,,Unknown,,,,,,,,,,,manual,,False
+manual_blank-space_ff7f636a25,Blank Space,Taylor Swift,,Unknown,,,,,,,,,,,manual,,False
+manual_cruel-summer_4e4ae123ca,Cruel Summer,Taylor Swift,,Unknown,,,,,,,,,,,manual,,False
+manual_a-sky-full-of-stars_407175cdf2,A Sky Full of Stars,Coldplay,,Unknown,,,,,,,,,,,manual,,False
+manual_demons_7a132d9b40,Demons,Imagine Dragons,,Unknown,,,,,,,,,,,manual,,False
+manual_bae2f5d298_47ec262341,七里香,周杰伦,,Unknown,,,,,,,,,,,manual,,False
+manual_9f1b766891_adf3d97b2f,晴天,周杰伦,,Unknown,,,,,,,,,,,manual,,False
+manual_806a5628e7_dddd6681a2,稻香,周杰伦,,Unknown,,,,,,,,,,,manual,,False
+manual_57489bc6f0_a41365d77f,夜曲,周杰伦,,Unknown,,,,,,,,,,,manual,,False
+manual_7d5df5e8dc_8209f042fc,告白气球,周杰伦,,Unknown,,,,,,,,,,,manual,,False
+manual_cfaa70870d_16d10f5661,江南,林俊杰,,Unknown,,,,,,,,,,,manual,,False
+manual_aeb7aca356_b86ea6f296,修炼爱情,林俊杰,,Unknown,,,,,,,,,,,manual,,False
+manual_16f8ee3a0d_fc389cc3f4,不为谁而作的歌,林俊杰,,Unknown,,,,,,,,,,,manual,,False
+manual_3868bcbbbc_6f6a6adee8,演员,薛之谦,,Unknown,,,,,,,,,,,manual,,False
+manual_a3a0b07422_29472c34c9,绅士,薛之谦,,Unknown,,,,,,,,,,,manual,,False
+manual_5c2bec8789_eec8d43dec,光年之外,G.E.M.邓紫棋,,Unknown,,,,,,,,,,,manual,,False
+manual_7a33de9c2c_95d3717c71,泡沫,G.E.M.邓紫棋,,Unknown,,,,,,,,,,,manual,,False
+manual_657798fb80_e376ab4998,句号,G.E.M.邓紫棋,,Unknown,,,,,,,,,,,manual,,False
+manual_c730b3d0c8_b65fe99da6,年轮说,杨丞琳,,Unknown,,,,,,,,,,,manual,,False
+manual_b3c51d0fb5_e4245b48fb,体面,于文文,,Unknown,,,,,,,,,,,manual,,False
+manual_529a50cdf6_8325fbbdb4,起风了,买辣椒也用券,,Unknown,,,,,,,,,,,manual,,False
+manual_80fe262801_2ffab62537,唯一,告五人,,Unknown,,,,,,,,,,,manual,,False
+manual_057e8b014b_d04ae7a0d8,爱人错过,告五人,,Unknown,,,,,,,,,,,manual,,False
+manual_c19511ca5a_d0470a56a7,想见你想见你想见你,八三夭,,Unknown,,,,,,,,,,,manual,,False
+manual_80c15b4f22_a51562a508,那些年,胡夏,,Unknown,,,,,,,,,,,manual,,False
+curated_drivers-license_ded8e1f9b9,Drivers License,Olivia Rodrigo,Curated Real Song Library,Pop,"dance,happy",0.67,0.75,0.67,106.0,0.17,0.01,0.07,0.12,82.0,curated,,True
+curated_good-4-u_bcab20f5ea,Good 4 U,Olivia Rodrigo,Curated Real Song Library,Pop,"dance,happy",0.695,0.725,0.695,109.0,0.145,0.01,0.07,0.12,83.0,curated,,True
+curated_flowers_243ed7f07e,Flowers,Miley Cyrus,Curated Real Song Library,Pop,"dance,happy",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,84.0,curated,,True
+curated_stay_ed5c49dde6,Stay,The Kid LAROI and Justin Bieber,Curated Real Song Library,Pop,"dance,happy",0.745,0.675,0.745,115.0,0.095,0.01,0.07,0.12,85.0,curated,,True
+curated_about-damn-time_540f9665db,About Damn Time,Lizzo,Curated Real Song Library,Pop,"dance,happy",0.77,0.65,0.77,118.0,0.07,0.01,0.07,0.12,86.0,curated,,True
+curated_shivers_8600f1defa,Shivers,Ed Sheeran,Curated Real Song Library,Pop,"dance,happy",0.67,0.75,0.67,121.0,0.17,0.01,0.07,0.12,87.0,curated,,True
+curated_save-your-tears_25851ec3eb,Save Your Tears,The Weeknd,Curated Real Song Library,Pop,"dance,happy",0.695,0.725,0.695,103.0,0.145,0.01,0.07,0.12,88.0,curated,,True
+curated_heat-waves_39bb0a8826,Heat Waves,Glass Animals,Curated Real Song Library,Pop,"dance,happy",0.72,0.7,0.72,106.0,0.12,0.01,0.07,0.12,89.0,curated,,True
+curated_havana_cba2841b15,Havana,Camila Cabello,Curated Real Song Library,Pop,"dance,happy",0.77,0.65,0.77,112.0,0.07,0.01,0.07,0.12,91.0,curated,,True
+curated_rolling-in-the-deep_f3a775eb53,Rolling in the Deep,Adele,Curated Real Song Library,Pop,"dance,happy",0.67,0.75,0.67,115.0,0.17,0.01,0.07,0.12,72.0,curated,,True
+curated_chandelier_642ad3db15,Chandelier,Sia,Curated Real Song Library,Pop,"dance,happy",0.695,0.725,0.695,118.0,0.145,0.01,0.07,0.12,73.0,curated,,True
+curated_royals_1916166b76,Royals,Lorde,Curated Real Song Library,Pop,"dance,happy",0.72,0.7,0.72,121.0,0.12,0.01,0.07,0.12,74.0,curated,,True
+curated_zombie_4d8b523965,Zombie,The Cranberries,Curated Real Song Library,Rock,"guitar,anthem",0.505,0.815,0.485,123.0,0.015,0.02,0.06,0.18,75.0,curated,,True
+curated_wonderwall_43f1c5cb2f,Wonderwall,Oasis,Curated Real Song Library,Rock,"guitar,anthem",0.53,0.79,0.51,126.0,0.0,0.02,0.06,0.18,76.0,curated,,True
+curated_creep_4e8d16d269,Creep,Radiohead,Curated Real Song Library,Rock,"guitar,anthem",0.43,0.89,0.41,129.0,0.09,0.02,0.06,0.18,77.0,curated,,True
+curated_use-somebody_2dee012088,Use Somebody,Kings of Leon,Curated Real Song Library,Rock,"guitar,anthem",0.455,0.865,0.435,132.0,0.065,0.02,0.06,0.18,78.0,curated,,True
+curated_everlong_29a9ad1b74,Everlong,Foo Fighters,Curated Real Song Library,Rock,"guitar,anthem",0.48,0.84,0.46,135.0,0.04,0.02,0.06,0.18,79.0,curated,,True
+curated_sex-on-fire_5a71aceebd,Sex on Fire,Kings of Leon,Curated Real Song Library,Rock,"guitar,anthem",0.505,0.815,0.485,138.0,0.015,0.02,0.06,0.18,80.0,curated,,True
+curated_sweet-child-o-mine_3b278725e2,Sweet Child O' Mine,Guns N' Roses,Curated Real Song Library,Rock,"guitar,anthem",0.53,0.79,0.51,141.0,0.0,0.02,0.06,0.18,81.0,curated,,True
+curated_back-in-black_df75895f31,Back in Black,AC/DC,Curated Real Song Library,Rock,"guitar,anthem",0.43,0.89,0.41,123.0,0.09,0.02,0.06,0.18,82.0,curated,,True
+curated_dreams_9cb12dd9e8,Dreams,Fleetwood Mac,Curated Real Song Library,Rock,"guitar,anthem",0.455,0.865,0.435,126.0,0.065,0.02,0.06,0.18,83.0,curated,,True
+curated_enter-sandman_a823ee7cb2,Enter Sandman,Metallica,Curated Real Song Library,Rock,"guitar,anthem",0.48,0.84,0.46,129.0,0.04,0.02,0.06,0.18,84.0,curated,,True
+curated_in-the-end_22e17b2dc3,In the End,Linkin Park,Curated Real Song Library,Rock,"guitar,anthem",0.505,0.815,0.485,132.0,0.015,0.02,0.06,0.18,85.0,curated,,True
+curated_do-i-wanna-know_ac204f723c,Do I Wanna Know?,Arctic Monkeys,Curated Real Song Library,Rock,"guitar,anthem",0.53,0.79,0.51,135.0,0.0,0.02,0.06,0.18,86.0,curated,,True
+curated_get-lucky_c86dae4a07,Get Lucky,Daft Punk ft. Pharrell Williams,Curated Real Song Library,Electronic,"dance,edm",0.63,0.91,0.4,134.0,0.08,0.35,0.06,0.16,87.0,curated,,True
+curated_the-nights_264ee46149,The Nights,Avicii,Curated Real Song Library,Electronic,"dance,edm",0.655,0.885,0.425,137.0,0.055,0.35,0.06,0.16,88.0,curated,,True
+curated_lean-on_bcf091dc83,Lean On,Major Lazer and DJ Snake,Curated Real Song Library,Electronic,"dance,edm",0.68,0.86,0.45,119.0,0.03,0.35,0.06,0.16,89.0,curated,,True
+curated_rather-be_ea50d1e3ce,Rather Be,Clean Bandit,Curated Real Song Library,Electronic,"dance,edm",0.705,0.835,0.475,122.0,0.005,0.35,0.06,0.16,90.0,curated,,True
+curated_don-t-you-worry-child_41fdeda816,Don't You Worry Child,Swedish House Mafia,Curated Real Song Library,Electronic,"dance,edm",0.73,0.81,0.5,125.0,0.0,0.35,0.06,0.16,91.0,curated,,True
+curated_turn-me-on_590b9af12e,Turn Me On,Riton and Oliver Heldens,Curated Real Song Library,Electronic,"dance,edm",0.63,0.91,0.4,128.0,0.08,0.35,0.06,0.16,72.0,curated,,True
+curated_sweet-nothing_bcf65e21e6,Sweet Nothing,Calvin Harris ft. Florence Welch,Curated Real Song Library,Electronic,"dance,edm",0.655,0.885,0.425,131.0,0.055,0.35,0.06,0.16,73.0,curated,,True
+curated_summer_de4d09ff22,Summer,Calvin Harris,Curated Real Song Library,Electronic,"dance,edm",0.68,0.86,0.45,134.0,0.03,0.35,0.06,0.16,74.0,curated,,True
+curated_this-is-what-you-came-for_6da5a62c81,This Is What You Came For,Calvin Harris ft. Rihanna,Curated Real Song Library,Electronic,"dance,edm",0.705,0.835,0.475,137.0,0.005,0.35,0.06,0.16,75.0,curated,,True
+curated_where-are-u-now_94e72f5642,Where Are U Now,Skrillex and Diplo ft. Justin Bieber,Curated Real Song Library,Electronic,"dance,edm",0.73,0.81,0.5,119.0,0.0,0.35,0.06,0.16,76.0,curated,,True
+curated_ghosts-n-stuff_db45b63934,Ghosts 'n' Stuff,Deadmau5,Curated Real Song Library,Electronic,"dance,edm",0.63,0.91,0.4,122.0,0.08,0.35,0.06,0.16,77.0,curated,,True
+curated_opus_89a26b1e21,Opus,Eric Prydz,Curated Real Song Library,Electronic,"dance,edm",0.655,0.885,0.425,125.0,0.055,0.35,0.06,0.16,78.0,curated,,True
+curated_empire-state-of-mind_756cf3b976,Empire State of Mind,Jay-Z ft. Alicia Keys,Curated Real Song Library,Hip-hop,"rap,beat",0.79,0.68,0.48,96.0,0.05,0.0,0.22,0.15,79.0,curated,,True
+curated_all-of-the-lights_4295ed0ef8,All of the Lights,Kanye West,Curated Real Song Library,Hip-hop,"rap,beat",0.815,0.655,0.505,99.0,0.025,0.0,0.22,0.15,80.0,curated,,True
+curated_alright_021d1bc5d6,Alright,Kendrick Lamar,Curated Real Song Library,Hip-hop,"rap,beat",0.84,0.63,0.53,102.0,0.0,0.0,0.22,0.15,81.0,curated,,True
+curated_in-da-club_b5feb65a3c,In Da Club,50 Cent,Curated Real Song Library,Hip-hop,"rap,beat",0.74,0.73,0.43,105.0,0.1,0.0,0.22,0.15,82.0,curated,,True
+curated_ms-jackson_60555fbc59,Ms. Jackson,Outkast,Curated Real Song Library,Hip-hop,"rap,beat",0.765,0.705,0.455,87.0,0.075,0.0,0.22,0.15,83.0,curated,,True
+curated_juicy_f9149194f6,Juicy,The Notorious B.I.G.,Curated Real Song Library,Hip-hop,"rap,beat",0.79,0.68,0.48,90.0,0.05,0.0,0.22,0.15,84.0,curated,,True
+curated_n-y-state-of-mind_0457bee53e,N.Y. State of Mind,Nas,Curated Real Song Library,Hip-hop,"rap,beat",0.815,0.655,0.505,93.0,0.025,0.0,0.22,0.15,85.0,curated,,True
+curated_the-motto_130c236748,The Motto,Drake,Curated Real Song Library,Hip-hop,"rap,beat",0.84,0.63,0.53,96.0,0.0,0.0,0.22,0.15,86.0,curated,,True
+curated_congratulations_02b70d705f,Congratulations,Post Malone,Curated Real Song Library,Hip-hop,"rap,beat",0.74,0.73,0.43,99.0,0.1,0.0,0.22,0.15,87.0,curated,,True
+curated_xo-tour-llif3_c5381f7941,XO Tour Llif3,Lil Uzi Vert,Curated Real Song Library,Hip-hop,"rap,beat",0.765,0.705,0.455,102.0,0.075,0.0,0.22,0.15,88.0,curated,,True
+curated_money-trees_34393c1a27,Money Trees,Kendrick Lamar,Curated Real Song Library,Hip-hop,"rap,beat",0.79,0.68,0.48,105.0,0.05,0.0,0.22,0.15,89.0,curated,,True
+curated_lucid-dreams_614a21cfd8,Lucid Dreams,Juice WRLD,Curated Real Song Library,Hip-hop,"rap,beat",0.815,0.655,0.505,87.0,0.025,0.0,0.22,0.15,90.0,curated,,True
+curated_easy-on-me_ac3140c257,Easy On Me,Adele,Curated Real Song Library,Ballad,"piano,emotional",0.47,0.26,0.33,76.0,0.73,0.01,0.04,0.1,91.0,curated,,True
+curated_a-thousand-years_46e70d40b0,A Thousand Years,Christina Perri,Curated Real Song Library,Ballad,"piano,emotional",0.37,0.36,0.23,79.0,0.83,0.01,0.04,0.1,72.0,curated,,True
+curated_apologize_b5930bf7b8,Apologize,OneRepublic,Curated Real Song Library,Ballad,"piano,emotional",0.395,0.335,0.255,82.0,0.805,0.01,0.04,0.1,73.0,curated,,True
+curated_i-will-always-love-you_17df1a096e,I Will Always Love You,Whitney Houston,Curated Real Song Library,Ballad,"piano,emotional",0.42,0.31,0.28,85.0,0.78,0.01,0.04,0.1,74.0,curated,,True
+curated_my-heart-will-go-on_6da33d7150,My Heart Will Go On,Celine Dion,Curated Real Song Library,Ballad,"piano,emotional",0.445,0.285,0.305,88.0,0.755,0.01,0.04,0.1,75.0,curated,,True
+curated_let-it-be_8c70d82c77,Let It Be,The Beatles,Curated Real Song Library,Ballad,"piano,emotional",0.47,0.26,0.33,91.0,0.73,0.01,0.04,0.1,76.0,curated,,True
+curated_make-you-feel-my-love_aad3787a8d,Make You Feel My Love,Adele,Curated Real Song Library,Ballad,"piano,emotional",0.37,0.36,0.23,73.0,0.83,0.01,0.04,0.1,77.0,curated,,True
+curated_gravity_ef92d0e51b,Gravity,John Mayer,Curated Real Song Library,Ballad,"piano,emotional",0.395,0.335,0.255,76.0,0.805,0.01,0.04,0.1,78.0,curated,,True
+curated_iris_7beba34c16,Iris,Goo Goo Dolls,Curated Real Song Library,Ballad,"piano,emotional",0.42,0.31,0.28,79.0,0.78,0.01,0.04,0.1,79.0,curated,,True
+curated_photograph_d7ed9c3a5c,Photograph,Ed Sheeran,Curated Real Song Library,Ballad,"piano,emotional",0.445,0.285,0.305,82.0,0.755,0.01,0.04,0.1,80.0,curated,,True
+curated_say-you-won-t-let-go_c965a41010,Say You Won't Let Go,James Arthur,Curated Real Song Library,Ballad,"piano,emotional",0.37,0.36,0.23,88.0,0.83,0.01,0.04,0.1,82.0,curated,,True
+curated_electric-feel_f338e1e403,Electric Feel,MGMT,Curated Real Song Library,Indie,"indie,melodic",0.555,0.585,0.525,117.0,0.365,0.04,0.05,0.13,83.0,curated,,True
+curated_little-talks_cd97f7ebc9,Little Talks,Of Monsters and Men,Curated Real Song Library,Indie,"indie,melodic",0.58,0.56,0.55,99.0,0.34,0.04,0.05,0.13,84.0,curated,,True
+curated_1901_db235edafc,1901,Phoenix,Curated Real Song Library,Indie,"indie,melodic",0.605,0.535,0.575,102.0,0.315,0.04,0.05,0.13,85.0,curated,,True
+curated_somebody-else_ce1efeb59b,Somebody Else,The 1975,Curated Real Song Library,Indie,"indie,melodic",0.63,0.51,0.6,105.0,0.29,0.04,0.05,0.13,86.0,curated,,True
+curated_dope-on-a-rope_282bac4af0,Dope on a Rope,The Growlers,Curated Real Song Library,Indie,"indie,melodic",0.53,0.61,0.5,108.0,0.39,0.04,0.05,0.13,87.0,curated,,True
+curated_first-day-of-my-life_022a6e11f0,First Day of My Life,Bright Eyes,Curated Real Song Library,Indie,"indie,melodic",0.555,0.585,0.525,111.0,0.365,0.04,0.05,0.13,88.0,curated,,True
+curated_new-slang_fa10be273b,New Slang,The Shins,Curated Real Song Library,Indie,"indie,melodic",0.58,0.56,0.55,114.0,0.34,0.04,0.05,0.13,89.0,curated,,True
+curated_sweet-disposition_789d444e78,Sweet Disposition,The Temper Trap,Curated Real Song Library,Indie,"indie,melodic",0.605,0.535,0.575,117.0,0.315,0.04,0.05,0.13,90.0,curated,,True
+curated_young-folks_1e075ef515,Young Folks,Peter Bjorn and John,Curated Real Song Library,Indie,"indie,melodic",0.63,0.51,0.6,99.0,0.29,0.04,0.05,0.13,91.0,curated,,True
+curated_home_fc8450c1cf,Home,Edward Sharpe and the Magnetic Zeros,Curated Real Song Library,Indie,"indie,melodic",0.53,0.61,0.5,102.0,0.39,0.04,0.05,0.13,72.0,curated,,True
+curated_my-number_c994c8568a,My Number,Foals,Curated Real Song Library,Indie,"indie,melodic",0.555,0.585,0.525,105.0,0.365,0.04,0.05,0.13,73.0,curated,,True
+curated_santeria_15976655dd,Santeria,Sublime,Curated Real Song Library,Indie,"indie,melodic",0.58,0.56,0.55,108.0,0.34,0.04,0.05,0.13,74.0,curated,,True
+curated_good-days_5e8341e5e3,Good Days,SZA,Curated Real Song Library,R&B,"soul,smooth",0.7,0.45,0.57,100.0,0.23,0.0,0.09,0.12,76.0,curated,,True
+curated_supermodel_4c02f760ec,Supermodel,SZA,Curated Real Song Library,R&B,"soul,smooth",0.6,0.55,0.47,103.0,0.33,0.0,0.09,0.12,77.0,curated,,True
+curated_redbone_aaf5522ccc,Redbone,Childish Gambino,Curated Real Song Library,R&B,"soul,smooth",0.625,0.525,0.495,85.0,0.305,0.0,0.09,0.12,78.0,curated,,True
+curated_location_915922e145,Location,Khalid,Curated Real Song Library,R&B,"soul,smooth",0.65,0.5,0.52,88.0,0.28,0.0,0.09,0.12,79.0,curated,,True
+curated_boo-d-up_d55236e7d9,Boo'd Up,Ella Mai,Curated Real Song Library,R&B,"soul,smooth",0.675,0.475,0.545,91.0,0.255,0.0,0.09,0.12,80.0,curated,,True
+curated_crew_68fa91a23f,Crew,GoldLink ft. Brent Faiyaz,Curated Real Song Library,R&B,"soul,smooth",0.7,0.45,0.57,94.0,0.23,0.0,0.09,0.12,81.0,curated,,True
+curated_pyramids_ea963c6326,Pyramids,Frank Ocean,Curated Real Song Library,R&B,"soul,smooth",0.6,0.55,0.47,97.0,0.33,0.0,0.09,0.12,82.0,curated,,True
+curated_pink-white_6879544e78,Pink + White,Frank Ocean,Curated Real Song Library,R&B,"soul,smooth",0.625,0.525,0.495,100.0,0.305,0.0,0.09,0.12,83.0,curated,,True
+curated_ordinary-people_d9d11a0501,Ordinary People,John Legend,Curated Real Song Library,R&B,"soul,smooth",0.65,0.5,0.52,103.0,0.28,0.0,0.09,0.12,84.0,curated,,True
+curated_fallin_84a50550c6,Fallin',Alicia Keys,Curated Real Song Library,R&B,"soul,smooth",0.675,0.475,0.545,85.0,0.255,0.0,0.09,0.12,85.0,curated,,True
+curated_leave-the-door-open_4745765f36,Leave The Door Open,Silk Sonic,Curated Real Song Library,R&B,"soul,smooth",0.7,0.45,0.57,88.0,0.23,0.0,0.09,0.12,86.0,curated,,True
+curated_landslide_fdf3e3bbb5,Landslide,Fleetwood Mac,Curated Real Song Library,Acoustic,"folk,acoustic",0.495,0.385,0.475,88.0,0.845,0.03,0.04,0.11,88.0,curated,,True
+curated_tenerife-sea_052807a1c7,Tenerife Sea,Ed Sheeran,Curated Real Song Library,Acoustic,"folk,acoustic",0.52,0.36,0.5,91.0,0.82,0.03,0.04,0.11,89.0,curated,,True
+curated_the-a-team_5d898ece5c,The A Team,Ed Sheeran,Curated Real Song Library,Acoustic,"folk,acoustic",0.545,0.335,0.525,94.0,0.795,0.03,0.04,0.11,90.0,curated,,True
+curated_heartbeats_d0886bec30,Heartbeats,Jose Gonzalez,Curated Real Song Library,Acoustic,"folk,acoustic",0.57,0.31,0.55,97.0,0.77,0.03,0.04,0.11,91.0,curated,,True
+curated_holocene_1445426ed5,Holocene,Bon Iver,Curated Real Song Library,Acoustic,"folk,acoustic",0.47,0.41,0.45,79.0,0.87,0.03,0.04,0.11,72.0,curated,,True
+curated_to-build-a-home_03ca8b2cba,To Build a Home,The Cinematic Orchestra,Curated Real Song Library,Acoustic,"folk,acoustic",0.495,0.385,0.475,82.0,0.845,0.03,0.04,0.11,73.0,curated,,True
+curated_wagon-wheel_b832144502,Wagon Wheel,Old Crow Medicine Show,Curated Real Song Library,Acoustic,"folk,acoustic",0.52,0.36,0.5,85.0,0.82,0.03,0.04,0.11,74.0,curated,,True
+curated_i-m-yours_c632d0ca67,I'm Yours,Jason Mraz,Curated Real Song Library,Acoustic,"folk,acoustic",0.545,0.335,0.525,88.0,0.795,0.03,0.04,0.11,75.0,curated,,True
+curated_hey-there-delilah_7d0edb395d,Hey There Delilah,Plain White T's,Curated Real Song Library,Acoustic,"folk,acoustic",0.57,0.31,0.55,91.0,0.77,0.03,0.04,0.11,76.0,curated,,True
+curated_free-fallin_f4cf2fb209,Free Fallin',Tom Petty,Curated Real Song Library,Acoustic,"folk,acoustic",0.47,0.41,0.45,94.0,0.87,0.03,0.04,0.11,77.0,curated,,True
+curated_tears-in-heaven_8b57531bb6,Tears in Heaven,Eric Clapton,Curated Real Song Library,Acoustic,"folk,acoustic",0.495,0.385,0.475,97.0,0.845,0.03,0.04,0.11,78.0,curated,,True
+manual_espresso_a88fd542e2,Espresso,Sabrina Carpenter,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_5f2bfee15b_47ec262341,七里香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_e7a51edd83_adf3d97b2f,晴天,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_de5fed388c_dddd6681a2,稻香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_09ec866337_a41365d77f,夜曲,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_1674f72306_8209f042fc,告白气球,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_52804c9a7f_16d10f5661,江南,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_075a6a6cdf_b86ea6f296,修炼爱情,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3d67848f39_fc389cc3f4,不为谁而作的歌,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_c2ac4667b9_6f6a6adee8,演员,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f7da254bea_29472c34c9,绅士,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a6c5cb9b98_eec8d43dec,光年之外,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_d6c8b2b584_95d3717c71,泡沫,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_d5215812bf_e376ab4998,句号,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_fb132bc8b1_b65fe99da6,年轮说,杨丞琳,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_25e6561485_e4245b48fb,体面,于文文,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_dee15ca3b4_8325fbbdb4,起风了,买辣椒也用券,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_01cd960713_2ffab62537,唯一,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_eeec48b16a_d04ae7a0d8,爱人错过,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_2b5d908a96_d0470a56a7,想见你想见你想见你,八三夭,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_d2d3fa891e_a51562a508,那些年,胡夏,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f16eca6f71_47ec262341,七里香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_62f535c657_adf3d97b2f,晴天,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_671edc96fa_dddd6681a2,稻香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_dfe4155d2e_a41365d77f,夜曲,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_022e5785cf_8209f042fc,告白气球,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_e1b09ad0b8_16d10f5661,江南,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_bfdb281cc8_b86ea6f296,修炼爱情,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_e942ca46d6_fc389cc3f4,不为谁而作的歌,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_01825cfcca_6f6a6adee8,演员,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_1215e5a285_29472c34c9,绅士,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3b0106b801_eec8d43dec,光年之外,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_0fef5577cb_95d3717c71,泡沫,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_e005a96ef1_e376ab4998,句号,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_dd70dc7093_b65fe99da6,年轮说,杨丞琳,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_56c56d380d_e4245b48fb,体面,于文文,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_d18c7891f7_8325fbbdb4,起风了,买辣椒也用券,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3b40b65da3_2ffab62537,唯一,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_325ae02c76_d04ae7a0d8,爱人错过,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_960cbae6da_d0470a56a7,想见你想见你想见你,八三夭,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_c8f78b64c2_a51562a508,那些年,胡夏,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_5026ab2a34_47ec262341,七里香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_29343659c2_adf3d97b2f,晴天,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_293e7ddefe_dddd6681a2,稻香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_11d7ba6e6c_a41365d77f,夜曲,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_db21114da0_8209f042fc,告白气球,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_9c22ced46f_16d10f5661,江南,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_63e3015637_b86ea6f296,修炼爱情,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_2d85312530_fc389cc3f4,不为谁而作的歌,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_04eb63cd5d_6f6a6adee8,演员,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f4f642fe0a_29472c34c9,绅士,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_0cf1b266f5_eec8d43dec,光年之外,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a3ec0ed89b_95d3717c71,泡沫,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_476baf1f18_e376ab4998,句号,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_02b108128a_b65fe99da6,年轮说,杨丞琳,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_0bef810194_e4245b48fb,体面,于文文,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f7bf902b1e_8325fbbdb4,起风了,买辣椒也用券,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_5b4dd5ed80_2ffab62537,唯一,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3ee7a6cd43_d04ae7a0d8,爱人错过,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_044e68ee61_d0470a56a7,想见你想见你想见你,八三夭,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a92318d0f8_a51562a508,那些年,胡夏,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_e009902079_47ec262341,七里香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a2a0cbca5f_adf3d97b2f,晴天,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_73c9b8bb06_dddd6681a2,稻香,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3b2fe981ef_a41365d77f,夜曲,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_35e55d0cfc_8209f042fc,告白气球,周杰伦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_b49961941e_16d10f5661,江南,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_9564a4728c_b86ea6f296,修炼爱情,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a7cd96048a_fc389cc3f4,不为谁而作的歌,林俊杰,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_19ba91c367_6f6a6adee8,演员,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a13ae0b4d4_29472c34c9,绅士,薛之谦,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_43014b6283_eec8d43dec,光年之外,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_a82adc6a7e_95d3717c71,泡沫,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_85976426e5_e376ab4998,句号,G.E.M.邓紫棋,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_545cbcf6fc_b65fe99da6,年轮说,杨丞琳,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_cff138e0ff_e4245b48fb,体面,于文文,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_c655298e06_8325fbbdb4,起风了,买辣椒也用券,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f8a0dba7d4_2ffab62537,唯一,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_4e81149fb3_d04ae7a0d8,爱人错过,告五人,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_f382d633fd_d0470a56a7,想见你想见你想见你,八三夭,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True
+manual_3287418d0e_a51562a508,那些年,胡夏,,Pop,"dance,pop,radio,estimated-features,online-metadata",0.72,0.7,0.72,112.0,0.12,0.01,0.07,0.12,68.0,manual,,True

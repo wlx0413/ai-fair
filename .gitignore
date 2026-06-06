@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+users.json
+
+# Local runtime data copied by the packaged macOS app.
+*.log
+
+# PyInstaller and macOS packaging outputs. These are rebuilt locally and should
+# be shared via a release/cloud drive, not committed to the source repo.
+mac_app_content*/
+mac_build*/
+pyinstaller_config/
+*.dmg
+*.app/
+*.pkg
+*.spec.bak
+mac_installer_dmg/staging*/
+mac_app_assets/*.iconset/
+
+# Local backups and retired files kept for safety, not for cloud handoff.
+backup_ui/
+backup_data/
+要删除的文件/
+
+# Common local editor/system files.
+.vscode/
+.idea/

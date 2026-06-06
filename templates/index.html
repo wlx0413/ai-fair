@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Music Recommendation System</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo-192.png') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='img/logo-192.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="app-shell">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="AI Music Recommendation System">
+          <img class="brand-logo" src="{{ url_for('static', filename='img/logo-192.png') }}" alt="" aria-hidden="true">
+          <span>
+            <strong data-i18n="navTitle">AI Music Recommendation System</strong>
+            <small data-i18n="navSubtitle">LightFM Hybrid Recommender</small>
+          </span>
+        </a>
+        <div class="nav-actions">
+          <a href="#recommendationsPanel" data-i18n="navRecommendations">Recommendations</a>
+          <a href="#trainingPanel" data-i18n="navTraining">Training</a>
+          <button class="ghost-btn" id="languageToggle" type="button" aria-label="Switch language">中文</button>
+          <div class="status-pill" id="healthStatus" data-i18n="checkingSystem">Checking system...</div>
+        </div>
+      </nav>
+
+      <header class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">AI Fair Machine Learning Project</p>
+          <h1 data-i18n="heroTitle">Train a music recommendation model from your playlist.</h1>
+          <p data-i18n="heroSubtitle">
+            Analyze your playlist and recommend similar songs using machine learning, item features, and user feedback.
+          </p>
+          <div class="hero-actions">
+            <button id="heroRecommendBtn" type="button" data-i18n="getRecommendations">Get Recommendations</button>
+            <button id="heroDailyBtn" class="secondary" type="button" data-i18n="generateFinal50">Generate Final 50</button>
+            <a class="ghost-link" href="#howItWorks" data-i18n="seeHowItWorks">See how it trains</a>
+          </div>
+        </div>
+        <aside class="now-playing-card" aria-label="Project model summary">
+          <div class="disc">
+            <div class="disc-center"></div>
+          </div>
+          <div>
+            <p class="mini-label" data-i18n="mainModel">Main Model</p>
+            <h2>LightFM WARP</h2>
+            <p data-i18n="modelOneLiner">Hybrid ranking model trained on playlist interactions and song item features.</p>
+          </div>
+        </aside>
+      </header>
+
+      <main class="dashboard-grid">
+        <section class="panel span-4">
+          <div class="panel-header">
+            <span class="panel-icon">⇣</span>
+            <div>
+              <h2 data-i18n="importTitle">Import Playlist</h2>
+              <p data-i18n="importHint">Only metadata is imported. No music audio is downloaded.</p>
+            </div>
+          </div>
+          <label class="field-label" for="qqInput" data-i18n="qqUrlLabel">QQ Music playlist URL or ID</label>
+          <div class="input-group">
+            <input id="qqInput" type="text" placeholder="https://y.qq.com/n/ryqq/playlist/xxxxx">
+            <button id="qqImportBtn" type="button" data-i18n="importButton">Import</button>
+          </div>
+          <div class="status-line" id="qqStatus" data-i18n="qqEmpty">Paste a public QQ Music playlist URL or ID.</div>
+        </section>
+
+        <section class="panel span-4">
+          <div class="panel-header">
+            <span class="panel-icon">＋</span>
+            <div>
+              <h2 data-i18n="manualTitle">Manual Playlist</h2>
+              <p data-i18n="manualHint">Add one song per line: Song Name - Artist Name</p>
+            </div>
+          </div>
+          <textarea id="manualSongs" rows="6" placeholder="Shape of You - Ed Sheeran&#10;Blinding Lights - The Weeknd&#10;Believer - Imagine Dragons"></textarea>
+          <button class="wide-btn" id="manualAddBtn" type="button" data-i18n="manualButton">Add Manual Playlist</button>
+          <div class="status-line" id="manualStatus" data-i18n="manualEmpty">Manual songs become user-item interactions for training.</div>
+        </section>
+
+        <section class="panel span-4" id="trainingPanel">
+          <div class="panel-header">
+            <span class="panel-icon">◎</span>
+            <div>
+              <h2 data-i18n="trainTitle">Train Model</h2>
+              <p data-i18n="trainHint">LightFM hybrid model with WARP ranking loss.</p>
+            </div>
+          </div>
+          <div class="training-note">
+            <strong data-i18n="howTrainLabel">How we train:</strong>
+            <span data-i18n="howTrainText">playlist songs and feedback become a user-song matrix, while each song becomes features like genre, artist, energy, tempo, mood, and tags.</span>
+          </div>
+          <button class="wide-btn" id="trainBtn" type="button" data-i18n="trainButton">Train Model</button>
+          <dl class="metrics" id="modelStatus"></dl>
+        </section>
+
+        <section class="panel span-7">
+          <div class="panel-header">
+            <span class="panel-icon">⌕</span>
+            <div>
+              <h2 data-i18n="searchTitle">Search Songs</h2>
+              <p data-i18n="searchHint">Search local demo songs first, then free metadata APIs when available.</p>
+            </div>
+          </div>
+          <div class="input-group search-group">
+            <input id="searchInput" type="text" placeholder="Try: Shape, Adele, Electronic, Kendrick">
+            <button id="searchBtn" type="button" data-i18n="searchButton">Search</button>
+          </div>
+          <div class="cards compact-cards" id="searchResults">
+            <div class="empty-state" data-i18n="searchEmpty">Search results will appear here.</div>
+          </div>
+        </section>
+
+        <section class="panel span-5">
+          <div class="panel-header">
+            <span class="panel-icon">◒</span>
+            <div>
+              <h2 data-i18n="tasteTitle">User Taste Profile</h2>
+              <p data-i18n="tasteHint">Built from imported songs and feedback.</p>
+            </div>
+          </div>
+          <div id="tasteProfile" class="taste-box">
+            <div class="empty-state" data-i18n="tasteEmpty">Add songs to build a taste profile.</div>
+          </div>
+        </section>
+
+        <section class="panel span-12" id="recommendationsPanel">
+          <div class="section-title-row">
+            <div class="panel-header flat">
+              <span class="panel-icon">♫</span>
+              <div>
+                <h2 data-i18n="recommendationsTitle">Recommendations</h2>
+                <p data-i18n="recommendationsHint">Ranked by learned model score plus content similarity.</p>
+              </div>
+            </div>
+            <div class="action-row">
+              <button id="recommendBtn" type="button" data-i18n="getRecommendations">Get Recommendations</button>
+              <button id="dailyBtn" class="secondary" type="button" data-i18n="generateFinal50">Generate Final 50</button>
+            </div>
+          </div>
+          <div class="cards recommendation-grid" id="recommendations">
+            <div class="empty-state large" data-i18n="recommendationsEmpty">No recommendations yet. Add songs, train the model, then get recommendations.</div>
+          </div>
+        </section>
+
+        <section class="panel span-12" id="dailyMixPanel">
+          <div class="section-title-row">
+            <div class="panel-header flat">
+              <span class="panel-icon">50</span>
+              <div>
+                <h2 data-i18n="dailyTitle">Daily Recommendation Mix</h2>
+                <p data-i18n="dailyHint">A final 50-song output playlist for your AI Fair demo.</p>
+              </div>
+            </div>
+            <button id="copyDailyBtn" class="secondary" type="button" data-i18n="copyFinal50">Copy 50-song playlist</button>
+          </div>
+          <div class="daily-list" id="dailyRecommendations">
+            <div class="empty-state large" data-i18n="dailyEmpty">Generate the final 50-song playlist to show your daily recommendations.</div>
+          </div>
+        </section>
+
+        <section class="panel span-12" id="howItWorks">
+          <div class="panel-header flat">
+            <span class="panel-icon">↯</span>
+            <div>
+              <h2 data-i18n="mlTitle">How the Machine Learning Works</h2>
+              <p data-i18n="mlHint">A simple AI Fair explanation for the training pipeline.</p>
+            </div>
+          </div>
+          <div class="flow-grid">
+            <article>
+              <span>01</span>
+              <h3 data-i18n="step1Title">Collect interactions</h3>
+              <p data-i18n="step1Text">Imported playlist songs, manual songs, Likes, and Dislikes become training signals.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3 data-i18n="step2Title">Build item features</h3>
+              <p data-i18n="step2Text">Songs are represented by genre, artist, tags, energy, tempo, mood, and popularity buckets.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3 data-i18n="step3Title">Train LightFM</h3>
+              <p data-i18n="step3Text">LightFM learns user preference weights using a hybrid recommendation model.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3 data-i18n="step4Title">Rank songs</h3>
+              <p data-i18n="step4Text">The app combines model score and content similarity, then shows the Top-N results.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>

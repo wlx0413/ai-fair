@@ -181,3 +181,189 @@ This project trains a hybrid music recommendation model from playlist data and u
 This project only imports playlist metadata for educational recommendation-system research. It does not download music, unlock paid content, bypass platform restrictions, or provide unauthorized playback.
 
 Optional note: `qqmusic-api-python` can be explored as a non-official metadata helper, but it is not required and is not included as a required dependency.
+
+---
+
+# AI 音乐推荐系统
+
+## 1. 项目概览
+
+这是一个为学校 AI Fair 制作的本地 Flask Web 项目。它会根据歌单数据和用户反馈训练一个混合音乐推荐模型。
+
+本项目不使用本地大语言模型。推荐理由由基于歌曲特征的确定性规则生成。
+
+## 2. 为什么这是机器学习项目
+
+系统会把歌曲、歌单以及 Like/Dislike 反馈转换成训练数据，构建用户-歌曲交互矩阵，将每首歌转换为物品特征，训练推荐模型，并根据学习到的用户偏好对候选歌曲进行排序。
+
+## 3. 技术栈
+
+- Python
+- Flask
+- pandas 和 NumPy
+- scikit-learn 备用模型
+- LightFM 开源推荐模型
+- 本地 CSV 数据存储
+- 免费音乐元数据 API
+
+## 4. 主模型：LightFM 混合推荐模型
+
+项目的主模型是 LightFM，这是一个基于用户-歌曲交互和歌曲特征训练的混合推荐模型。
+
+项目使用：
+
+```python
+LightFM(loss="warp")
+```
+
+WARP 适合 Top-N 推荐任务，因为它会训练模型把更相关的歌曲排在更不相关的歌曲前面。
+
+如果 LightFM 没有安装，或者暂时无法完成训练，应用会退回到基于内容相似度的基础推荐模型；当 Like/Dislike 样本足够时，也会使用 LogisticRegression 反馈模型作为辅助。
+
+## 5. 数据集结构
+
+应用会自动创建以下文件：
+
+- `data/songs.csv`
+- `data/playlists.csv`
+- `data/interactions.csv`
+- `data/feedback.csv`
+
+`songs.csv` 存储歌曲元数据和音频风格特征，例如 danceability、energy、valence、tempo、acousticness、speechiness 和 popularity。
+
+`interactions.csv` 存储训练事件：
+
+- `playlist_import = 1.0`
+- `manual_add = 1.0`
+- `like = 2.0`
+- `dislike = -1.0`
+- `skip = -0.5`
+
+## 6. 歌单导入
+
+QQ 音乐导入功能只用于教育项目中的歌单元数据导入。系统不会下载音乐、绕过版权限制，也不会提供未经授权的播放功能。
+
+如果 QQ 音乐歌曲能匹配到本地演示数据集，应用可以复用本地音频特征。如果无法匹配，该歌曲只会作为元数据保存，不会直接用于模型训练。
+
+## 7. 免费音乐搜索 API
+
+搜索顺序：
+
+1. 本地 CSV 搜索
+2. MusicBrainz 搜索
+3. Last.fm 搜索，前提是在 `.env` 中设置了 `LASTFM_API_KEY`
+4. Deezer 搜索
+
+在线 API 结果通常只提供元数据。如果结果没有音频特征，页面会提示该歌曲不能直接用于模型训练。
+
+## 8. 特征工程
+
+歌曲会被转换成 LightFM 的物品特征 token，例如：
+
+- `genre:pop`
+- `artist:the_weeknd`
+- `tag:dance`
+- `source:demo`
+- `energy:high`
+- `valence:positive`
+- `tempo:fast`
+- `danceability:high`
+- `acousticness:high`
+- `speechiness:high`
+- `popularity:high`
+
+## 9. 训练流程
+
+1. 加载带有音频特征的歌曲。
+2. 加载歌单导入、手动添加、Like 和 Dislike 事件。
+3. 保留正向交互用于 LightFM WARP 训练。
+4. 构建用户-物品交互矩阵。
+5. 构建物品特征矩阵。
+6. 训练 LightFM 混合推荐模型。
+7. 将训练好的模型保存到 `models/lightfm_model.pkl`。
+
+## 10. 推荐流程
+
+如果 LightFM 已经训练完成：
+
+```text
+final_score = 0.7 * lightfm_score + 0.3 * content_similarity_score
+```
+
+如果 LightFM 不可用：
+
+```text
+final_score = 0.6 * content_similarity_score + 0.4 * logistic_regression_probability
+```
+
+系统会排除用户已经导入、手动添加、喜欢或不喜欢过的歌曲。
+
+## 11. 反馈学习
+
+当用户点击 Like 或 Dislike 时：
+
+1. 反馈会保存到 `data/feedback.csv`。
+2. 新交互会保存到 `data/interactions.csv`。
+3. 应用会尝试重新训练模型。
+4. 之后的推荐结果会根据新的反馈发生变化。
+
+## 12. 本地运行方式
+
+Mac / Linux：
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+Windows：
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+
+打开终端中输出的网址，例如：
+
+```text
+http://127.0.0.1:5000
+```
+
+如果 5000 端口被占用，应用会自动尝试 5001、5002、5003、8000 和 8080。
+
+## 13. 使用方法
+
+1. 导入 QQ 音乐歌单，或手动添加歌曲。
+2. 搜索歌曲并添加可用于本地训练的歌曲。
+3. 点击 Train Model。
+4. 点击 Get Recommendations。
+5. 对推荐歌曲点击 Like 或 Dislike。
+6. 重新训练模型，并比较推荐结果如何变化。
+
+## 14. AI Fair 展示讲稿
+
+本项目会根据歌单数据和用户反馈训练一个混合音乐推荐模型。歌单导入会产生隐式反馈，Like 和 Dislike 会产生显式反馈。每首歌都会被表示为 genre、artist、mood、tempo、energy 等物品特征。LightFM 模型会学习哪些歌曲更可能符合用户口味，并对歌曲进行排序推荐。
+
+## 15. 局限性
+
+- 免费在线音乐 API 通常不提供完整音频特征。
+- QQ 音乐导入依赖公开元数据的可用性。
+- 演示数据集使用了较真实但简化过的音频特征值。
+- 当用户提供更多歌单和反馈数据时，模型效果会继续提升。
+
+## 16. 后续改进方向
+
+- 添加更大的授权音频特征数据集。
+- 支持多个演示用户。
+- 添加 precision@k 和 recall@k 等评估指标。
+- 改进跨音乐平台的重复歌曲检测。
+
+## 17. 版权与安全说明
+
+本项目只为教育性质的推荐系统研究导入歌单元数据。它不会下载音乐、解锁付费内容、绕过平台限制，也不会提供未经授权的播放功能。
+
+补充说明：`qqmusic-api-python` 可以作为非官方元数据辅助工具进行探索，但它不是必需功能，也没有被列为必要依赖。

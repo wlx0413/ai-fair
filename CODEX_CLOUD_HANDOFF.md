@@ -42,9 +42,12 @@ Open the printed local URL.
 
 ## macOS App Build
 
+Build the macOS app with a native Apple Silicon Python interpreter. Do not build
+with an Intel/Rosetta Python, or macOS will classify the app as an Intel app.
+
 ```bash
-python3 tools/generate_logo_assets.py
-PYINSTALLER_CONFIG_DIR="$(pwd)/pyinstaller_config" python3 -m PyInstaller AI_Music_Recommender.spec --noconfirm --distpath mac_app_content_final --workpath mac_build_work_native_logo
+arch -arm64 /opt/homebrew/bin/python3.11 tools/generate_logo_assets.py
+PYINSTALLER_CONFIG_DIR="$(pwd)/pyinstaller_config" arch -arm64 /opt/homebrew/bin/python3.11 -m PyInstaller AI_Music_Recommender.spec --noconfirm --clean --distpath mac_app_content_final --workpath mac_build_work_native_logo
 ```
 
 The app is generated at:
@@ -52,6 +55,15 @@ The app is generated at:
 ```text
 mac_app_content_final/AI Music Recommender.app
 ```
+
+Verify the generated app is Apple Silicon native:
+
+```bash
+file "mac_app_content_final/AI Music Recommender.app/Contents/MacOS/AI Music Recommender"
+lipo -info "mac_app_content_final/AI Music Recommender.app/Contents/MacOS/AI Music Recommender"
+```
+
+The output should say `arm64`, not `x86_64`.
 
 ## DMG Build
 
